@@ -1,0 +1,72 @@
+.checked {
+	color: orange;
+}
+
+.listing-table-wrapper {
+	overflow-x: auto;
+}
+
+.listing-table {
+	max-width: 100%;
+	border-collapse: collapse;
+}
+
+.listing-table td {
+	padding: 15px;
+}
+
+.listing-table--content_casino {
+	text-align: center;
+	display: grid;
+}
+
+@media (max-width: 767px) {
+	.listing-table th {
+		min-width: 225px;
+	}
+}
+
+.listing-table--head {
+	background-color: orange;
+}
+
+.listing-table--content {
+	border-bottom: 1px solid black;
+}
+
+/* .listing-table--content_casino {
+	display: grid;
+} */
+
+.listing-table--content__review{
+	color: #2b9dff;
+	text-align: center;
+}
+
+.listing-table--content_bonus {
+	text-align: center;
+}
+
+.listing-table--content_play {
+	text-align: center;
+}
+
+.listing-table--content_feature {
+	/* padding: 15px; */
+}
+
+.listing-table--content__playurl {
+	background-color: rgb(34, 91, 34);
+	border-radius: 7px;
+	width: 130px;
+	height: 40px;
+	
+}
+
+.listing-table--content__playurl a {
+	color: whitesmoke;
+}
+
+.listing-table--content__tnc a {
+	color: rgb(244, 83, 110);
+}
